@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UserAuthService.Stormpath" GeneratedClassName="Stormpath">
+  <Profiles />
+  <Settings>
+    <Setting Name="ApiKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4O3R44KMNZ8KVAI61L6Z2YTMT</Value>
+    </Setting>
+    <Setting Name="ApiKeySecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hh2hXM4nSl9l7KU9LB+YfQpPySEY2mM0kZP4Da35mT4</Value>
+    </Setting>
+    <Setting Name="ApplicationUrl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.stormpath.com/v1/applications/52DzPnSxEfgbVQcgzdSn8D</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
