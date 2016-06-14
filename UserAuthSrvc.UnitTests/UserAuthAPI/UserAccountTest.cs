@@ -10,11 +10,5 @@ namespace UserAuthSrvc.UnitTests.UserAuthAPI
     [TestFixture]
     public class UserAccountTest
     {
-        [Test]
-        public void TestMethod()
-        {
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
-        }
     }
 }

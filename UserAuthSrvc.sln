@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthService.Common", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthService.StormpathRepository", "UserAuthService.Stormpath\UserAuthService.StormpathRepository.csproj", "{D44DB3D0-552A-43F2-BCED-D4A3B3CCACEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthService.IntegrationTests", "UserAuthService.IntegrationTests\UserAuthService.IntegrationTests.csproj", "{F5AEF307-7DD4-4004-9E69-F7B7081A161C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D44DB3D0-552A-43F2-BCED-D4A3B3CCACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44DB3D0-552A-43F2-BCED-D4A3B3CCACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44DB3D0-552A-43F2-BCED-D4A3B3CCACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AEF307-7DD4-4004-9E69-F7B7081A161C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AEF307-7DD4-4004-9E69-F7B7081A161C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AEF307-7DD4-4004-9E69-F7B7081A161C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AEF307-7DD4-4004-9E69-F7B7081A161C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
