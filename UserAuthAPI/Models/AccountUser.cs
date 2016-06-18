@@ -14,5 +14,10 @@ namespace UserAuthAPI.Modals
         public string Password { get; set; }
         public UserAccountStatus Status { get; set; }
         public string Username { get; set; }
+
+        public AccountUser Clone()
+        {
+            return (AccountUser)this.MemberwiseClone();
+        }
     }
 }

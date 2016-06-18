@@ -11,7 +11,8 @@ namespace UserAuthService.Common
         }
 
         private Settings()
-        { }
+        {
+        }
 
         public Data Data { get; set; }
     }
@@ -32,6 +33,7 @@ namespace UserAuthService.Common
         }
 
         public Application[] Applications { get; set; }
+        public Directory[] Directories { get; set; }
         public User User { get; set; }
     }
 
@@ -53,6 +55,16 @@ namespace UserAuthService.Common
         }
 
         public string name { get; set; }
-        public string Url { get; set; }
+        public string href { get; set; }
+    }
+
+    public class Directory
+    {
+        private Directory()
+        {
+        }
+
+        public string name { get; set; }
+        public string href { get; set; }
     }
 }
